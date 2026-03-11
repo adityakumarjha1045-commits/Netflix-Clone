@@ -1,0 +1,300 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+}
+.upper{
+    height:99vh ;
+    width:99.9vw ;
+}
+.bg{
+    height: 99vh;
+    width: 99.9vw;
+    filter: brightness(25%);
+    position: relative;
+    object-fit: cover;
+}
+.logo{
+    height: 95px;
+    width: 150px;
+    position: relative;
+    left: 150px;
+    
+    
+    
+    
+
+}
+.nav{
+    position: absolute;
+    z-index: 10;
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+}
+
+
+.Eng{
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 16px;
+    width: 130px;
+    height: 35px;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+    filter: opacity(.7);
+    position: relative;
+    left: 320px;
+    top: 28px;
+    border: 2px solid white;
+    
+    
+
+}
+.Sign{
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    height: 35px;
+    border-radius: 5px;
+    width: 80px;
+    background-color: red;
+    color: white;
+    position: relative;
+    top: 28px;
+    right: 170px;
+}
+.aditya{
+    position: relative;
+    /* left: 850px; */
+    /* top: 28px; */
+    /* padding: 10px; */
+    /* border: 2px solid white; */
+    
+    
+}
+.letter{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom:450px ;
+    /* display: flex; */
+    text-align: center;
+}
+span{
+    color: white;
+    display: block;
+}
+.spanone{
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 56px;
+}
+.spantwo{
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+.spanthree{
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    position: relative;
+    top: 8px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 430px;
+    left: 60px;
+}
+input{
+    width: 370px;
+    height: 50px;
+    position: relative;
+    right: 73px;
+    /* padding: 10px; */
+    border-radius: 5px;
+    background-color: black;
+    filter: opacity(0.7);
+    text-indent: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    border: 2px solid white;
+
+}
+.Get{
+    width:200px ;
+    height: 50px;
+    position: relative;
+    border-radius: 5px;
+    background-color: red;
+    right: 60px;
+    border: 1px solid white;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: white;
+
+}
+.trending{
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    display: inline;
+    position: relative;
+    top: 45px;
+    left: 133px;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 70px;
+    right: 70px;
+}
+.image{
+    padding: 20px;
+    /* border-radius: 10px; */
+    /* border:1px solid black; */
+    /* object-fit:contain; */
+    display: flex;
+}
+.lowest{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+position: relative;
+top: 100px;
+}
+.more{
+    display: inline;
+    position: relative;
+    /* right: 3px; */
+    left: 90px;
+    bottom: 90px;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+}
+.box{
+    width: 250px;
+    height: 300px;
+    border: 2px solid black;
+    position: relative;
+    top: 170px;
+    /* padding: 70px; */
+    right: 165px;
+    border-radius: 20px;
+    display: flex;
+    /* padding: 23px; */
+    margin: 10px;
+    background: linear-gradient(135deg,#1E3A8A,#3B4CCA,#5B2D8b);
+}
+.info{
+    display: flex;
+    /* padding: 40px; */
+    position: relative;
+    left: 30px;
+}
+b{
+font-family: sans-serif;
+font-weight: 700;
+font-size: 24px;
+position: relative;
+top: 20px;
+left: 10px;
+display: block;
+justify-content: center;
+height: 30vh;
+/* padding: 23px;*/
+}
+.frequently{
+    position:relative;
+    top: 400px;
+    left: 120px;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+
+}
+.boxes{
+    border: 2px solid black;
+    width: 80vw;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 500px;
+    left: 125px;
+    background-color: gray;
+    margin: 10px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    /* text-align:end; */
+
+    
+}
+.book{
+    display: flex;
+    position: relative;
+    right: 400px;
+}
+.books{
+    display: flex;
+    position: relative;
+    right: 310px;
+}
+.booking{
+    display: flex;
+    position: relative;
+    right: 370px;
+}
+.booklet{
+    display: flex;
+    position: relative;
+    right: 385px;
+}
+.copy{
+    display: flex;
+    position: relative;
+    right: 310px;
+}
+.copying{
+    display: flex;
+    position: relative;
+    right: 325px;
+}
+h2{
+    color: white;
+}
+.create{
+    color: white;
+    display: flex;
+    position:relative;
+    top: 580px;
+    justify-content: center;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+.laptop{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 600px;
+    left: 50px;
+}
+
+
